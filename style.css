@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header
+{
+    width: 100%;
+    position:  ;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.container-1{
+    position: absolute;
+    padding-left: 100px ;
+    top: 40%;
+    left: 40%;
+    right: 20%;
+    transform: translate;
+    width: ;
+}
+ 
+.container-1 .email{
+    height: 50px;
+    position: relative;
+    
+}
+
+.container-1 .email input{
+    width: 300px;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid coral;
+}
+ 
+
+.container {
+    width: 100;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: ;
+}
+.navbar {
+    height: 10%;
+    display: flex;
+    align-items: 
+    
+}
+.logo-text{
+    margin-left: px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-right:0px;
+}
+.logo{
+    width: 80px;
+    height: 50px;
+    padding-right: 0px;
+    
+}
+.toggle_btn{
+    width: 80px;
+    margin-left: 30px;
+}
+ 
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+
+section{
+    padding-right: ;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 0px;
+
+}
+.main h1{
+    text-align: center;
+    color: red;
+    padding-top: 40px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h1 span{
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: tomato;
+    font-size: 1em;
+    font-weight: 400;
+}
+.photo{
+    float: left;
+    width: 540px;
+    height: 300px;
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-left: 40px;
+    margin-right: 70px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container-2 {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  @media (width: 768px) {
+    .container-2{
+      width: 100%;
+      padding: 0 20px;
+    }
+  } 
+  
